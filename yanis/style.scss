@@ -1,4 +1,82 @@
+* {
+    margin: 0;
+    padding: 0
+}
 body {
     font-family: 'Frank Ruhl Libre', serif;
     background-color: beige;
+}
+:root {
+    --primary : #F19540
+}
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    button{
+        color: white;
+        background-color: transparent;
+        border: white solid 1px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        padding: 15px;
+}
+}
+nav{
+    display: flex;
+    gap: 15px;
+    a{
+        text-decoration: none;
+        color: white;
+      }
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-image: url(images/gautier.png);
+    height: 100vh;
+    padding-inline: 100px;
+}
+.avatar{
+    gap: 20px;
+    h1{font-size: 150px;
+        color: white;
+    }
+    p{
+        font-size: 28px;
+        color: white;
+    }
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    button{
+        color: white;
+        background-color: var(--primary);
+        font-size: 16px;
+        height: 60px;
+        width: 206px;
+    }
 }
