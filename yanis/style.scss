@@ -57,6 +57,7 @@ nav{
     height: 100vh;
     padding-inline: 100px;
 }
+
 .avatar{
     gap: 20px;
     h1{font-size: 150px;
@@ -79,4 +80,38 @@ nav{
         height: 60px;
         width: 206px;
     }
+}
+
+.activite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height:160px;
+    gap: 50px;
+    padding: 20px;
+    .txt{
+        h4{
+            font-size: 32px;
+            color: white;
+        }
+        p{
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+}
+.histoire{
+    background-color: white;
+    padding: 32px;
+    .txt{
+        h4{
+            color: black;
+        }
+        p{
+            color: black;
+        }
+    }
+
 }
